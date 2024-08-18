@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X1RVLA/AjXjDq1x5MsyPry7USaXC/3RjVCEuvZC+mPs=",
+  "Source": "kitchen-api",
+  "BasePath": "_content/kitchen-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

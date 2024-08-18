@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\kitchen-api.props" />
+</Project>
