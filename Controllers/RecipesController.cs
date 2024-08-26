@@ -55,11 +55,11 @@ namespace kitchen_api.Controllers
                 Preparation = recipeRequest.Preparation
             };
 
-            if (recipeRequest.Image != null)
+            if (recipeRequest.ImageData != null)
             {
                 using var memoryStream = new MemoryStream();
 
-                await recipeRequest.Image.CopyToAsync(memoryStream);
+                await recipeRequest.ImageData.CopyToAsync(memoryStream);
 
                 newRecipe.ImageData = memoryStream.ToArray();
             }
@@ -78,7 +78,7 @@ namespace kitchen_api.Controllers
         // PUT api/recipes/3
         [HttpPut("{id}")]
         public async Task<IActionResult> Put([FromRoute] int id,
-            [FromForm] RecipeRequest recipeRequest)
+            [FromForm] UpdateRecipeRequest recipeRequest)
         {
             var recipe = await _context.Recipes.SingleOrDefaultAsync(x => x.Id == id);
 
@@ -90,11 +90,11 @@ namespace kitchen_api.Controllers
             recipe.Ingredients = recipeRequest.Ingredients;
             recipe.Preparation = recipeRequest.Preparation;
 
-            if (recipeRequest.Image != null)
+            if (recipeRequest.ImageData != null)
             {
                 using var memoryStream = new MemoryStream();
 
-                await recipeRequest.Image.CopyToAsync(memoryStream);
+                await recipeRequest.ImageData.CopyToAsync(memoryStream);
 
                 recipe.ImageData = memoryStream.ToArray();
             }

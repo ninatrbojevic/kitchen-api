@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_projects\\kitchen-api\\kitchen-api.csproj": {}
+    "C:\\_projects\\Dummy_Projects\\nina-zavrsni-api\\kitchen-api.csproj": {}
   },
   "projects": {
-    "C:\\_projects\\kitchen-api\\kitchen-api.csproj": {
+    "C:\\_projects\\Dummy_Projects\\nina-zavrsni-api\\kitchen-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_projects\\kitchen-api\\kitchen-api.csproj",
+        "projectUniqueName": "C:\\_projects\\Dummy_Projects\\nina-zavrsni-api\\kitchen-api.csproj",
         "projectName": "kitchen-api",
-        "projectPath": "C:\\_projects\\kitchen-api\\kitchen-api.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\_projects\\kitchen-api\\obj\\",
+        "projectPath": "C:\\_projects\\Dummy_Projects\\nina-zavrsni-api\\kitchen-api.csproj",
+        "packagesPath": "C:\\Users\\Milan\\.nuget\\packages\\",
+        "outputPath": "C:\\_projects\\Dummy_Projects\\nina-zavrsni-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Milan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

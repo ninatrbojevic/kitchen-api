@@ -6,6 +6,6 @@
         public string DishType { get; set; }
         public string Ingredients { get; set; }
         public string Preparation { get; set; }
-        public IFormFile Image { get; set; }
+        public IFormFile ImageData { get; set; }
     }
 }
