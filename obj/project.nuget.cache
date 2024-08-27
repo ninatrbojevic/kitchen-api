@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HcQk/4VRqn0=",
+  "dgSpecHash": "UClRxhqzZnw=",
   "success": true,
-  "projectFilePath": "C:\\_projects\\kitchen-api\\kitchen-api.csproj",
+  "projectFilePath": "C:\\_projects\\moms-kitchen-api\\kitchen-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nina\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nina\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

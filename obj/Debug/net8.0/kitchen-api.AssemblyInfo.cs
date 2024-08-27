@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kitchen-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0ce3b62884e2c92ae7a5895941d84375344d19")]
 [assembly: System.Reflection.AssemblyProductAttribute("kitchen-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kitchen-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
