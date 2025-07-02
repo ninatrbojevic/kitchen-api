@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_projects\\moms-kitchen-api\\kitchen-api.csproj": {}
+    "/Users/ninatrbojevic/Projects/moms-kitchen-api/kitchen-api.csproj": {}
   },
   "projects": {
-    "C:\\_projects\\moms-kitchen-api\\kitchen-api.csproj": {
+    "/Users/ninatrbojevic/Projects/moms-kitchen-api/kitchen-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_projects\\moms-kitchen-api\\kitchen-api.csproj",
+        "projectUniqueName": "/Users/ninatrbojevic/Projects/moms-kitchen-api/kitchen-api.csproj",
         "projectName": "kitchen-api",
-        "projectPath": "C:\\_projects\\moms-kitchen-api\\kitchen-api.csproj",
-        "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-        "outputPath": "C:\\_projects\\moms-kitchen-api\\obj\\",
+        "projectPath": "/Users/ninatrbojevic/Projects/moms-kitchen-api/kitchen-api.csproj",
+        "packagesPath": "/Users/ninatrbojevic/.nuget/packages/",
+        "outputPath": "/Users/ninatrbojevic/Projects/moms-kitchen-api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ninatrbojevic/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,9 +57,17 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.7.3, )"
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/ninatrbojevic/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
